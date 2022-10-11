@@ -1,0 +1,25 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "Test",
+					"value": "Sucess the action works in dev env"
+				}
+			}
+		],
+		"variables": {
+			"Test": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2022-10-11T15:09:13Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
