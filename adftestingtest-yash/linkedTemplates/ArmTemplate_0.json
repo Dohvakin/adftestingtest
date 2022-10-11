@@ -24,8 +24,8 @@
 						"dependsOn": [],
 						"userProperties": [],
 						"typeProperties": {
-							"variableName": "test",
-							"value": "sucess"
+							"variableName": "Test",
+							"value": "Sucess the action works in dev env"
 						}
 					}
 				],
@@ -34,11 +34,12 @@
 					"cancelAfter": {}
 				},
 				"variables": {
-					"test": {
+					"Test": {
 						"type": "String"
 					}
 				},
-				"annotations": []
+				"annotations": [],
+				"lastPublishTime": "2022-10-11T15:09:13Z"
 			},
 			"dependsOn": []
 		}
